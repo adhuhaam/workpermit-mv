@@ -97,6 +97,10 @@ Then try a clear permit/passport photo.
 | `POST /api/telegram/setup` | Register webhook (needs `SETUP_SECRET`) |
 | `POST /api/ocr` | Optional server OCR (Telegram uses server OCR internally) |
 
+## Agent / handoff docs
+
+See **[docs/PROJECT_KNOWLEDGE.md](docs/PROJECT_KNOWLEDGE.md)** for a full export of project context (API, architecture, Telegram setup, OCR, deploy gotchas) to feed another AI agent or repo.
+
 ## Disclaimer
 
 Unofficial tool. Use only for permits you are authorized to view.
